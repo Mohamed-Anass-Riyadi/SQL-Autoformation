@@ -5,6 +5,6 @@ CREATE TABLE phones (
 );
 
 CREATE TABLE models (
-    idphones int , FOREIGN KEY (idphones) REFERENCES cars (idphones),
+    idphones int , FOREIGN KEY (idphones) REFERENCES phones (idphones),
     model int (20)
 );
