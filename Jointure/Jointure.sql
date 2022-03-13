@@ -1,0 +1,1 @@
+SELECT  Nom , model FROM phones INNER JOIN  models on phones.idphones = models.idphones WHERE Nom = "iphone" ;
